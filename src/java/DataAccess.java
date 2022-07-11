@@ -7,8 +7,8 @@ import java.util.ArrayList;
 import java.util.stream.Collectors;
 
 public class DataAccess {
-    static String inputPath = "input1.txt";
-    static File inputFile = new File("input1.txt");
+    static String inputPath = "src/resources/input1.txt";
+    static File inputFile = new File(inputPath);
 
 
     public static Boolean inputFileExists(){
