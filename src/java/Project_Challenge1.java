@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Project_Challenge1 {
+package java;
+
+public class Project_Challenge1
+{
 }
