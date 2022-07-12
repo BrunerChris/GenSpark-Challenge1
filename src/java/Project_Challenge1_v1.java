@@ -17,19 +17,37 @@ public class Project_Challenge1_v1 {
         ArrayList<String[]> columns = new ArrayList<>();
         for (int i = 0; i < columnNum; i++)
         {
-            if ((cubeNum - currentNum) > (columnNum * columnNum))
+            if (currentNum < elementNums)
+            {
+                if ((currentNum + (columnNum * columnNum)) < (elementNums))
+                {
+                    int temp = cubeNum / columnNum;
+                    String[] array = new String[temp];
+                    columns.add(array);
+                    currentNum += temp;
+                }
+                else
+                {
+                    int temp = (elementNums - currentNum);
+                    String[] array = new String[temp];
+                    columns.add(array);
+                    currentNum += temp;
+                }
+            }
+
+            /*if ((cubeNum - currentNum) > (columnNum * columnNum))
             {
                 int temp = cubeNum / columnNum;
                 String[] array = new String[temp];
                 columns.add(array);
                 currentNum += temp;
             }
-            else
+            else if ((cubeNum - currentNum) < (columnNum * columnNum))
             {
                 int temp = (elementNums - currentNum);
                 String[] array = new String[temp];
                 columns.add(array);
-            }
+            }*/
         }
 
         int k = 0;
