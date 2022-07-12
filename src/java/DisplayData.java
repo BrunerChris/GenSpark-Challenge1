@@ -13,7 +13,7 @@ public class DisplayData {
 
                 for ( int k = 0; k < nums.size(); k++ ) {
                     try {
-                        values.append( nums.get(i + k)[j] + " " );
+                        values.append( nums.get(i + k)[j] + "," );
 
                     } catch ( Exception e ) {
 
