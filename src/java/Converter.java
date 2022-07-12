@@ -50,12 +50,12 @@ public class Converter {
 
                 int i = (num[x] - '0');
                 if (i > 0)
-                    result.append(tens_multiple[i]).append(" ");
+                    result.append(tens_multiple[i].trim()).append(" ");
 
                 ++x;
 
                 if (num[x] - '0' != 0)
-                    result.append(single_digits[num[x] - '0']);
+                    result.append(single_digits[num[x] - '0'].trim());
 
             }
 
@@ -63,7 +63,7 @@ public class Converter {
 
         }
 
-        return result.toString();
+        return result.toString().trim();
 
     }
 
