@@ -68,8 +68,7 @@ public class Converter {
     }
 
     public Object wordToNumber(String str) {
-//        return wordToNumberMap.get(str);
-        return wordToNumberMap.getOrDefault(str, null);
+        return wordToNumberMap.getOrDefault(str.toLowerCase(), null);
     }
 
 }
