@@ -24,7 +24,7 @@ public class DisplayData {
 
                 for ( int l = 0; l < lastC.length; l++ ) {
 
-                    System.out.printf( "%-10s", lastC[l] );
+                    System.out.printf( "%-15s", lastC[l] );
                 }
                 System.out.println();
 

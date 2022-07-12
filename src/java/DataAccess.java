@@ -1,4 +1,3 @@
-package java;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -7,7 +6,7 @@ import java.util.ArrayList;
 import java.util.stream.Collectors;
 
 public class DataAccess {
-    static String inputPath = "src/resources/input1.txt";
+    static String inputPath = "src/resources/input.txt";
     static File inputFile = new File(inputPath);
 
 
