@@ -13,14 +13,14 @@ public class DisplayData {
 
                 for ( int k = 0; k < nums.size(); k++ ) {
                     try {
-                        if (nums.get(i + k)[j] != null ) {
-                            values.append( nums.get(i + k)[j] + " " );
-                        }
+                        values.append( nums.get(i + k)[j] + " " );
+
                     } catch ( Exception e ) {
 
                     }
                 }
-                String[] lastC = values.toString().split(" ");
+
+                String[] lastC = values.toString().split(",");
 
                 for ( int l = 0; l < lastC.length; l++ ) {
 
