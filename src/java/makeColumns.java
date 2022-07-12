@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class makeColumns {
 
-    public ArrayList<String[]> printColumns(ArrayList<String> numbers)
+    static public ArrayList<String[]> printColumns(ArrayList<String> numbers)
     {
         int elementNums = (int) numbers.stream().count();
         int columnNum = 1;

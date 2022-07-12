@@ -80,6 +80,7 @@ public class DataAccess {
         numberStrings.add("Thirty Seven");
         numberStrings.add("Thirty Eight");
         numberStrings.add("Thirty Nine");
+        numberStrings.add("Forty");
 
         try{
             OutputStream out = new FileOutputStream(inputPath);
@@ -88,6 +89,7 @@ public class DataAccess {
                 out.write(bytes);
                 out.write(System.lineSeparator().getBytes());
             }
+            out.close();
             return true;
         }
         catch (IOException ex) {

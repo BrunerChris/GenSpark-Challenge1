@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d9380aa-7d98-4bf0-b6ea-e82fe53c4849" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/DataAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/DataAccess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/JSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/JSTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/JSTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Project_Challenge1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Project_Challenge1_v1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/makeColumns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/makeColumns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/input1.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

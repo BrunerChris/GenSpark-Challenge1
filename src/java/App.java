@@ -25,16 +25,17 @@ public class App {
             backToString.add(cvt.numberToWord(n));
         }
 
-        ArrayList<String> oneToSeven = new ArrayList<>(backToString.subList(1,7));
-        ArrayList<String[]> inputOne = new ArrayList<>(Project_Challenge1_v1.printColumns(oneToSeven));
-        ArrayList<String> oneToTwentyFive = new ArrayList<>(backToString.subList(1,25));
-        ArrayList<String[]> inputTwo = new ArrayList<>(Project_Challenge1_v1.printColumns(oneToTwentyFive));
-        ArrayList<String[]> completeList = new ArrayList<>(Project_Challenge1_v1.printColumns(backToString));
-        System.out.println("-----Input-One-----");
+        ArrayList<String> oneToSeven = new ArrayList<>(backToString.subList(0,7));
+        ArrayList<String[]> inputOne = new ArrayList<>(makeColumns.printColumns(oneToSeven));
+        ArrayList<String> oneToTwentyFive = new ArrayList<>(backToString.subList(0,25));
+        ArrayList<String[]> inputTwo = new ArrayList<>(makeColumns.printColumns(oneToTwentyFive));
+        ArrayList<String[]> completeList = new ArrayList<>(makeColumns.printColumns(backToString));
+
+        System.out.println("---------------Input-One---------------");
         DisplayData.displayData(inputOne);
-        System.out.println("-----Input-Two-----");
+        System.out.println("---------------Input-Two---------------");
         DisplayData.displayData(inputTwo);
-        System.out.println("-----Input-Three-----");
+        System.out.println("---------------Input-Three---------------");
         DisplayData.displayData(completeList);
         System.out.println("--------Program-End--------");
     }
