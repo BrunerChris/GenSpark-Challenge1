@@ -20,6 +20,7 @@ public class DataAccess {
     public static Boolean createInputFile(){
         try{
             inputFile.createNewFile();
+            fillInputFile();
             return true;
         }catch(Exception e){
             System.out.println("Unable to create new file");
@@ -27,11 +28,11 @@ public class DataAccess {
         }
     }
 
-    public static ArrayList<String> readInputFile() throws IOException {
+    public static ArrayList<String> readInputFile() {
         ArrayList<String> input = new ArrayList<>();
         try {
             input = ((ArrayList<String>) Files.lines(Path.of(inputPath)).collect(Collectors.toList()));
-        }catch (Exception e){
+        }catch (IOException e){
             System.out.println("Unable to read from file");
         }
         return input;
@@ -65,6 +66,20 @@ public class DataAccess {
         numberStrings.add("Twenty One");
         numberStrings.add("Twenty Three");
         numberStrings.add("Twenty Five");
+        numberStrings.add("Twenty Six");
+        numberStrings.add("Twenty Seven");
+        numberStrings.add("Twenty Eight");
+        numberStrings.add("Twenty Nine");
+        numberStrings.add("Thirty");
+        numberStrings.add("Thirty One");
+        numberStrings.add("Thirty Two");
+        numberStrings.add("Thirty Three");
+        numberStrings.add("Thirty Four");
+        numberStrings.add("Thirty Five");
+        numberStrings.add("Thirty Six");
+        numberStrings.add("Thirty Seven");
+        numberStrings.add("Thirty Eight");
+        numberStrings.add("Thirty Nine");
 
         try{
             OutputStream out = new FileOutputStream(inputPath);
@@ -79,6 +94,5 @@ public class DataAccess {
             System.out.println("Unable to write to file.");
         }
         return false;
-
     }
 }

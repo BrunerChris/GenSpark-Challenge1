@@ -1,7 +1,4 @@
-import javax.xml.crypto.Data;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -16,19 +13,19 @@ public class JSTest {
         ArrayList<Integer> numList = new ArrayList<>();
 
 
-
-
         for (String s:readIn) {
-            Integer temp = cvt.wordToNumber(s);
+            Object temp = cvt.wordToNumber(s);
             if(temp != null){
-                numList.add(cvt.wordToNumber(s));
+                int i = (Integer) temp;
+                numList.add((Integer)temp);
             }
+
         }
+        System.out.println("NumList: "+numList.size());
 
-/*
         numList.stream().forEach(System.out::println);
-        Collections.sort(numList);
 
+        Collections.sort(numList);
 
         ArrayList<String> backToString = new ArrayList<>();
         for(int n:numList){
@@ -41,8 +38,5 @@ public class JSTest {
         ArrayList<String[]> afterColumn = new ArrayList<>(Project_Challenge1_v1.printColumns(backToString));
 
         DisplayData.displayData(afterColumn);
-
-
- */
     }
 }

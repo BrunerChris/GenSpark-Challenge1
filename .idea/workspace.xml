@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d9380aa-7d98-4bf0-b6ea-e82fe53c4849" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/java/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/DataAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/DataAccess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/JSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/JSTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/input.txt" afterDir="false" />
     </list>
@@ -40,7 +43,14 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Unnamed">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="Project_Challenge1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Project_Challenge1" />
@@ -58,6 +68,7 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.App" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
