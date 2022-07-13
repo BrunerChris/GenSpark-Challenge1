@@ -11,11 +11,7 @@ public class DataAccess {
 
 
     public static Boolean inputFileExists(){
-        if(!inputFile.exists()){
-            System.out.println(inputFile.toString() + " File not found. File will be created.");
-            return false;
-        }
-        return true;
+        return inputFile.exists();
     }
     public static Boolean createInputFile(){
         try{
